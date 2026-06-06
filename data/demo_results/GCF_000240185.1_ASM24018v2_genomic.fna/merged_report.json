@@ -1,0 +1,810 @@
+{
+  "sample_id": "GCF_000240185.1_ASM24018v2_genomic",
+  "analysis_date": "2026-06-04 20:07",
+  "tools": {
+    "amrfinderplus": "4.2.7",
+    "mob_suite": "3.1.9"
+  },
+  "genes": [
+    {
+      "gene_name": "blaCTX-M-14",
+      "contig": "NC_016838.1",
+      "drug_class": "BETA-LACTAM",
+      "plasmid_info": {
+        "rep_type": "IncFIB(K)/IncFII(K)",
+        "mobility": "mobilizable",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "blaCTX-M-14 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "位于 IncFIB(K)/IncFII(K) 型质粒 (contig NC_016838.1)",
+          "confidence": "Medium"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "mobilizable",
+          "confidence": "Medium"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：BETA-LACTAM耐药，质粒可被辅助转移，中等传播风险",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "gene_name": "dfrA50",
+      "contig": "NC_016838.1",
+      "drug_class": "TRIMETHOPRIM",
+      "plasmid_info": {
+        "rep_type": "unknown",
+        "mobility": "unknown",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "dfrA50 (一致性 98.10%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "暂未获得质粒信息",
+          "confidence": "Low"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "未知",
+          "confidence": "Low"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：TRIMETHOPRIM耐药，传播风险较低或未知",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "gene_name": "blaTEM-1",
+      "contig": "NC_016839.1",
+      "drug_class": "BETA-LACTAM",
+      "plasmid_info": {
+        "rep_type": "IncF/IncI1",
+        "mobility": "mobilizable",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "blaTEM-1 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "位于 IncF/IncI1 型质粒 (contig NC_016839.1)",
+          "confidence": "Medium"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "mobilizable",
+          "confidence": "Medium"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：BETA-LACTAM耐药，质粒可被辅助转移，中等传播风险",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "gene_name": "rmtB1",
+      "contig": "NC_016839.1",
+      "drug_class": "AMINOGLYCOSIDE",
+      "plasmid_info": {
+        "rep_type": "IncFII(K)",
+        "mobility": "conjugative",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "rmtB1 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "位于 IncFII(K) 型质粒 (contig NC_016839.1)",
+          "confidence": "Medium"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "conjugative",
+          "confidence": "Medium"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：AMINOGLYCOSIDE耐药，质粒可接合转移，传播风险极高",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "gene_name": "tet(G)",
+      "contig": "NC_016839.1",
+      "drug_class": "TETRACYCLINE",
+      "plasmid_info": {
+        "rep_type": "IncF/IncI1",
+        "mobility": "mobilizable",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "tet(G) (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "位于 IncF/IncI1 型质粒 (contig NC_016839.1)",
+          "confidence": "Medium"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "mobilizable",
+          "confidence": "Medium"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：TETRACYCLINE耐药，质粒可被辅助转移，中等传播风险",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "gene_name": "floR2",
+      "contig": "NC_016839.1",
+      "drug_class": "PHENICOL",
+      "plasmid_info": {
+        "rep_type": "IncF/IncA/C",
+        "mobility": "mobilizable",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "floR2 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "位于 IncF/IncA/C 型质粒 (contig NC_016839.1)",
+          "confidence": "Medium"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "mobilizable",
+          "confidence": "Medium"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：PHENICOL耐药，质粒可被辅助转移，中等传播风险",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "gene_name": "sul1",
+      "contig": "NC_016839.1",
+      "drug_class": "SULFONAMIDE",
+      "plasmid_info": {
+        "rep_type": "class 1 integron",
+        "mobility": "mobilizable",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "sul1 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "位于 class 1 integron 型质粒 (contig NC_016839.1)",
+          "confidence": "Medium"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "mobilizable",
+          "confidence": "Medium"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：SULFONAMIDE耐药，质粒可被辅助转移，中等传播风险",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "gene_name": "qacEdelta1",
+      "contig": "NC_016839.1",
+      "drug_class": "QUATERNARY AMMONIUM",
+      "plasmid_info": {
+        "rep_type": "class 1 integron",
+        "mobility": "mobilizable",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "qacEdelta1 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "位于 class 1 integron 型质粒 (contig NC_016839.1)",
+          "confidence": "Medium"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "mobilizable",
+          "confidence": "Medium"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：QUATERNARY AMMONIUM耐药，质粒可被辅助转移，中等传播风险",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "gene_name": "aadA2",
+      "contig": "NC_016839.1",
+      "drug_class": "AMINOGLYCOSIDE",
+      "plasmid_info": {
+        "rep_type": "class 1 integron",
+        "mobility": "mobilizable",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "aadA2 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "位于 class 1 integron 型质粒 (contig NC_016839.1)",
+          "confidence": "Medium"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "mobilizable",
+          "confidence": "Medium"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：AMINOGLYCOSIDE耐药，质粒可被辅助转移，中等传播风险",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "gene_name": "dfrA12",
+      "contig": "NC_016839.1",
+      "drug_class": "TRIMETHOPRIM",
+      "plasmid_info": {
+        "rep_type": "class 1 integron",
+        "mobility": "mobilizable",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "dfrA12 (一致性 97.20%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "位于 class 1 integron 型质粒 (contig NC_016839.1)",
+          "confidence": "Medium"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "mobilizable",
+          "confidence": "Medium"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：TRIMETHOPRIM耐药，质粒可被辅助转移，中等传播风险",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "gene_name": "aac(3)-IId",
+      "contig": "NC_016839.1",
+      "drug_class": "AMINOGLYCOSIDE",
+      "plasmid_info": {
+        "rep_type": "unknown",
+        "mobility": "unknown",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "aac(3)-IId (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "暂未获得质粒信息",
+          "confidence": "Low"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "未知",
+          "confidence": "Low"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：AMINOGLYCOSIDE耐药，传播风险较低或未知",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "gene_name": "blaTEM-1",
+      "contig": "NC_016839.1",
+      "drug_class": "BETA-LACTAM",
+      "plasmid_info": {
+        "rep_type": "IncF/IncI1",
+        "mobility": "mobilizable",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "blaTEM-1 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "位于 IncF/IncI1 型质粒 (contig NC_016839.1)",
+          "confidence": "Medium"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "mobilizable",
+          "confidence": "Medium"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：BETA-LACTAM耐药，质粒可被辅助转移，中等传播风险",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "gene_name": "aph(6)-Id",
+      "contig": "NC_016839.1",
+      "drug_class": "AMINOGLYCOSIDE",
+      "plasmid_info": {
+        "rep_type": "unknown",
+        "mobility": "unknown",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "aph(6)-Id (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "暂未获得质粒信息",
+          "confidence": "Low"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "未知",
+          "confidence": "Low"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：AMINOGLYCOSIDE耐药，传播风险较低或未知",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "gene_name": "aph(3'')-Ib",
+      "contig": "NC_016839.1",
+      "drug_class": "AMINOGLYCOSIDE",
+      "plasmid_info": {
+        "rep_type": "unknown",
+        "mobility": "unknown",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "aph(3'')-Ib (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "暂未获得质粒信息",
+          "confidence": "Low"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "未知",
+          "confidence": "Low"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：AMINOGLYCOSIDE耐药，传播风险较低或未知",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "gene_name": "sul2",
+      "contig": "NC_016839.1",
+      "drug_class": "SULFONAMIDE",
+      "plasmid_info": {
+        "rep_type": "IncF/IncI1",
+        "mobility": "mobilizable",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "sul2 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "位于 IncF/IncI1 型质粒 (contig NC_016839.1)",
+          "confidence": "Medium"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "mobilizable",
+          "confidence": "Medium"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：SULFONAMIDE耐药，质粒可被辅助转移，中等传播风险",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "gene_name": "blaCTX-M-14",
+      "contig": "NC_016839.1",
+      "drug_class": "BETA-LACTAM",
+      "plasmid_info": {
+        "rep_type": "IncFIB(K)/IncFII(K)",
+        "mobility": "mobilizable",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "blaCTX-M-14 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "位于 IncFIB(K)/IncFII(K) 型质粒 (contig NC_016839.1)",
+          "confidence": "Medium"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "mobilizable",
+          "confidence": "Medium"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：BETA-LACTAM耐药，质粒可被辅助转移，中等传播风险",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "gene_name": "fosA",
+      "contig": "NC_016845.1",
+      "drug_class": "FOSFOMYCIN",
+      "plasmid_info": {
+        "rep_type": "IncFII(K)",
+        "mobility": "conjugative",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "fosA (一致性 98.56%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "位于 IncFII(K) 型质粒 (contig NC_016845.1)",
+          "confidence": "Medium"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "conjugative",
+          "confidence": "Medium"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：FOSFOMYCIN耐药，质粒可接合转移，传播风险极高",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "gene_name": "blaSHV-11",
+      "contig": "NC_016845.1",
+      "drug_class": "BETA-LACTAM",
+      "plasmid_info": {
+        "rep_type": "IncFIB(K)",
+        "mobility": "mobilizable",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "blaSHV-11 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "位于 IncFIB(K) 型质粒 (contig NC_016845.1)",
+          "confidence": "Medium"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "mobilizable",
+          "confidence": "Medium"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：BETA-LACTAM耐药，质粒可被辅助转移，中等传播风险",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "gene_name": "blaKPC-2",
+      "contig": "NC_016846.1",
+      "drug_class": "BETA-LACTAM",
+      "plasmid_info": {
+        "rep_type": "unknown",
+        "mobility": "unknown",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "blaKPC-2 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "暂未获得质粒信息",
+          "confidence": "Low"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "未知",
+          "confidence": "Low"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：BETA-LACTAM耐药，传播风险较低或未知",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "gene_name": "blaTEM-1",
+      "contig": "NC_016846.1",
+      "drug_class": "BETA-LACTAM",
+      "plasmid_info": {
+        "rep_type": "IncF/IncI1",
+        "mobility": "mobilizable",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "blaTEM-1 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "位于 IncF/IncI1 型质粒 (contig NC_016846.1)",
+          "confidence": "Medium"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "mobilizable",
+          "confidence": "Medium"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：BETA-LACTAM耐药，质粒可被辅助转移，中等传播风险",
+          "confidence": "High"
+        }
+      ]
+    }
+  ]
+}

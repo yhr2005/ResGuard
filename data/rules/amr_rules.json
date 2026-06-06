@@ -1,0 +1,704 @@
+{
+  "genes": [
+    {
+      "gene": "blaNDM-1",
+      "phenotype": "碳青霉烯类耐药",
+      "level": "极高",
+      "color": "red",
+      "note": "金属β-内酰胺酶"
+    },
+    {
+      "gene": "blaNDM-5",
+      "phenotype": "碳青霉烯类耐药",
+      "level": "极高",
+      "color": "red",
+      "note": "金属β-内酰胺酶变异型"
+    },
+    {
+      "gene": "blaNDM-7",
+      "phenotype": "碳青霉烯类耐药",
+      "level": "极高",
+      "color": "red",
+      "note": "金属β-内酰胺酶变异型"
+    },
+    {
+      "gene": "blaKPC-2",
+      "phenotype": "碳青霉烯类耐药",
+      "level": "极高",
+      "color": "red",
+      "note": "丝氨酸碳青霉烯酶"
+    },
+    {
+      "gene": "blaKPC-3",
+      "phenotype": "碳青霉烯类耐药",
+      "level": "极高",
+      "color": "red",
+      "note": "丝氨酸碳青霉烯酶"
+    },
+    {
+      "gene": "blaVIM-1",
+      "phenotype": "碳青霉烯类耐药",
+      "level": "极高",
+      "color": "red",
+      "note": "金属β-内酰胺酶"
+    },
+    {
+      "gene": "blaVIM-2",
+      "phenotype": "碳青霉烯类耐药",
+      "level": "极高",
+      "color": "red",
+      "note": "金属β-内酰胺酶"
+    },
+    {
+      "gene": "blaIMP-1",
+      "phenotype": "碳青霉烯类耐药",
+      "level": "极高",
+      "color": "red",
+      "note": "金属β-内酰胺酶"
+    },
+    {
+      "gene": "blaIMP-4",
+      "phenotype": "碳青霉烯类耐药",
+      "level": "极高",
+      "color": "red",
+      "note": "金属β-内酰胺酶"
+    },
+    {
+      "gene": "blaOXA-48",
+      "phenotype": "碳青霉烯类耐药",
+      "level": "极高",
+      "color": "red",
+      "note": "OXA型碳青霉烯酶"
+    },
+    {
+      "gene": "blaOXA-181",
+      "phenotype": "碳青霉烯类耐药",
+      "level": "极高",
+      "color": "red",
+      "note": "OXA-48-like碳青霉烯酶"
+    },
+    {
+      "gene": "blaOXA-232",
+      "phenotype": "碳青霉烯类耐药",
+      "level": "极高",
+      "color": "red",
+      "note": "OXA-48-like碳青霉烯酶"
+    },
+    {
+      "gene": "blaOXA-23",
+      "phenotype": "碳青霉烯类耐药",
+      "level": "极高",
+      "color": "red",
+      "note": "鲍曼不动杆菌碳青霉烯酶"
+    },
+    {
+      "gene": "blaOXA-24",
+      "phenotype": "碳青霉烯类耐药",
+      "level": "极高",
+      "color": "red",
+      "note": "鲍曼不动杆菌碳青霉烯酶"
+    },
+    {
+      "gene": "blaOXA-58",
+      "phenotype": "碳青霉烯类耐药",
+      "level": "极高",
+      "color": "red",
+      "note": "鲍曼不动杆菌碳青霉烯酶"
+    },
+    {
+      "gene": "blaGES-5",
+      "phenotype": "碳青霉烯类耐药",
+      "level": "极高",
+      "color": "red",
+      "note": "丝氨酸碳青霉烯酶"
+    },
+    {
+      "gene": "mcr-1",
+      "phenotype": "多粘菌素耐药",
+      "level": "极高",
+      "color": "red",
+      "note": "质粒介导多粘菌素耐药"
+    },
+    {
+      "gene": "mcr-2",
+      "phenotype": "多粘菌素耐药",
+      "level": "极高",
+      "color": "red",
+      "note": "质粒介导多粘菌素耐药"
+    },
+    {
+      "gene": "mcr-3",
+      "phenotype": "多粘菌素耐药",
+      "level": "极高",
+      "color": "red",
+      "note": "质粒介导多粘菌素耐药"
+    },
+    {
+      "gene": "vanA",
+      "phenotype": "万古霉素耐药",
+      "level": "极高",
+      "color": "red",
+      "note": "肠球菌万古霉素耐药"
+    },
+    {
+      "gene": "vanB",
+      "phenotype": "万古霉素耐药",
+      "level": "极高",
+      "color": "red",
+      "note": "肠球菌万古霉素耐药"
+    },
+    {
+      "gene": "vanM",
+      "phenotype": "万古霉素耐药",
+      "level": "极高",
+      "color": "red",
+      "note": "肠球菌万古霉素耐药"
+    },
+    {
+      "gene": "cfr",
+      "phenotype": "多重耐药(含利奈唑胺)",
+      "level": "极高",
+      "color": "red",
+      "note": "23S rRNA甲基转移酶"
+    },
+    {
+      "gene": "optrA",
+      "phenotype": "利奈唑胺/氟苯尼考耐药",
+      "level": "极高",
+      "color": "red",
+      "note": "ABC转运蛋白"
+    },
+    {
+      "gene": "tet(X3)",
+      "phenotype": "替加环素耐药",
+      "level": "极高",
+      "color": "red",
+      "note": "替加环素氧化酶(高水平)"
+    },
+    {
+      "gene": "blaCTX-M-15",
+      "phenotype": "第三代头孢耐药",
+      "level": "高",
+      "color": "orange",
+      "note": "超广谱β-内酰胺酶(ESBL)"
+    },
+    {
+      "gene": "blaCTX-M-14",
+      "phenotype": "第三代头孢耐药",
+      "level": "高",
+      "color": "orange",
+      "note": "超广谱β-内酰胺酶(ESBL)"
+    },
+    {
+      "gene": "blaCTX-M-55",
+      "phenotype": "第三代头孢耐药",
+      "level": "高",
+      "color": "orange",
+      "note": "超广谱β-内酰胺酶(ESBL)"
+    },
+    {
+      "gene": "blaSHV-12",
+      "phenotype": "第三代头孢耐药",
+      "level": "高",
+      "color": "orange",
+      "note": "超广谱β-内酰胺酶(ESBL)"
+    },
+    {
+      "gene": "blaTEM-52",
+      "phenotype": "第三代头孢耐药",
+      "level": "高",
+      "color": "orange",
+      "note": "超广谱β-内酰胺酶(ESBL)"
+    },
+    {
+      "gene": "blaPER-1",
+      "phenotype": "第三代头孢耐药",
+      "level": "高",
+      "color": "orange",
+      "note": "超广谱β-内酰胺酶(ESBL)"
+    },
+    {
+      "gene": "blaVEB-1",
+      "phenotype": "第三代头孢耐药",
+      "level": "高",
+      "color": "orange",
+      "note": "超广谱β-内酰胺酶(ESBL)"
+    },
+    {
+      "gene": "blaCMY-2",
+      "phenotype": "第三代头孢/头霉素耐药",
+      "level": "高",
+      "color": "orange",
+      "note": "AmpC型头孢菌素酶"
+    },
+    {
+      "gene": "blaDHA-1",
+      "phenotype": "第三代头孢/头霉素耐药",
+      "level": "高",
+      "color": "orange",
+      "note": "AmpC型头孢菌素酶"
+    },
+    {
+      "gene": "blaFOX-1",
+      "phenotype": "第三代头孢/头霉素耐药",
+      "level": "高",
+      "color": "orange",
+      "note": "AmpC型头孢菌素酶"
+    },
+    {
+      "gene": "blaMOX-1",
+      "phenotype": "第三代头孢/头霉素耐药",
+      "level": "高",
+      "color": "orange",
+      "note": "AmpC型头孢菌素酶"
+    },
+    {
+      "gene": "blaACC-1",
+      "phenotype": "第三代头孢/头霉素耐药",
+      "level": "高",
+      "color": "orange",
+      "note": "AmpC型头孢菌素酶"
+    },
+    {
+      "gene": "blaOXA-1",
+      "phenotype": "青霉素/头孢耐药",
+      "level": "高",
+      "color": "orange",
+      "note": "OXA型β-内酰胺酶"
+    },
+    {
+      "gene": "blaOXA-2",
+      "phenotype": "青霉素/头孢耐药",
+      "level": "高",
+      "color": "orange",
+      "note": "OXA型β-内酰胺酶"
+    },
+    {
+      "gene": "blaOXA-10",
+      "phenotype": "青霉素/头孢耐药",
+      "level": "高",
+      "color": "orange",
+      "note": "OXA型β-内酰胺酶"
+    },
+    {
+      "gene": "armA",
+      "phenotype": "氨基糖苷类耐药",
+      "level": "高",
+      "color": "orange",
+      "note": "16S rRNA甲基化酶"
+    },
+    {
+      "gene": "rmtB",
+      "phenotype": "氨基糖苷类耐药",
+      "level": "高",
+      "color": "orange",
+      "note": "16S rRNA甲基化酶"
+    },
+    {
+      "gene": "aac(6')-Ib",
+      "phenotype": "氨基糖苷类耐药",
+      "level": "高",
+      "color": "orange",
+      "note": "氨基糖苷乙酰转移酶"
+    },
+    {
+      "gene": "aac(3)-IIa",
+      "phenotype": "氨基糖苷类耐药",
+      "level": "高",
+      "color": "orange",
+      "note": "氨基糖苷乙酰转移酶"
+    },
+    {
+      "gene": "ant(2'')-Ia",
+      "phenotype": "氨基糖苷类耐药",
+      "level": "高",
+      "color": "orange",
+      "note": "氨基糖苷核苷转移酶"
+    },
+    {
+      "gene": "aph(3')-Ia",
+      "phenotype": "氨基糖苷类耐药",
+      "level": "高",
+      "color": "orange",
+      "note": "氨基糖苷磷酸转移酶"
+    },
+    {
+      "gene": "aadA1",
+      "phenotype": "氨基糖苷类耐药",
+      "level": "高",
+      "color": "orange",
+      "note": "氨基糖苷腺苷转移酶"
+    },
+    {
+      "gene": "strA",
+      "phenotype": "链霉素耐药",
+      "level": "高",
+      "color": "orange",
+      "note": "链霉素磷酸转移酶"
+    },
+    {
+      "gene": "qnrA1",
+      "phenotype": "喹诺酮类耐药",
+      "level": "高",
+      "color": "orange",
+      "note": "质粒介导喹诺酮耐药(PMQR)"
+    },
+    {
+      "gene": "qnrB1",
+      "phenotype": "喹诺酮类耐药",
+      "level": "高",
+      "color": "orange",
+      "note": "质粒介导喹诺酮耐药(PMQR)"
+    },
+    {
+      "gene": "qnrS1",
+      "phenotype": "喹诺酮类耐药",
+      "level": "高",
+      "color": "orange",
+      "note": "质粒介导喹诺酮耐药(PMQR)"
+    },
+    {
+      "gene": "qnrS2",
+      "phenotype": "喹诺酮类耐药",
+      "level": "高",
+      "color": "orange",
+      "note": "质粒介导喹诺酮耐药(PMQR)"
+    },
+    {
+      "gene": "aac(6')-Ib-cr",
+      "phenotype": "喹诺酮类耐药",
+      "level": "高",
+      "color": "orange",
+      "note": "喹诺酮修饰酶"
+    },
+    {
+      "gene": "qepA",
+      "phenotype": "喹诺酮类耐药",
+      "level": "高",
+      "color": "orange",
+      "note": "喹诺酮外排泵"
+    },
+    {
+      "gene": "oqxA",
+      "phenotype": "喹诺酮类耐药",
+      "level": "高",
+      "color": "orange",
+      "note": "喹诺酮外排泵"
+    },
+    {
+      "gene": "tet(A)",
+      "phenotype": "四环素类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "四环素外排泵"
+    },
+    {
+      "gene": "tet(B)",
+      "phenotype": "四环素类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "四环素外排泵"
+    },
+    {
+      "gene": "tet(C)",
+      "phenotype": "四环素类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "四环素外排泵"
+    },
+    {
+      "gene": "tet(G)",
+      "phenotype": "四环素类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "四环素外排泵"
+    },
+    {
+      "gene": "tet(M)",
+      "phenotype": "四环素类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "核糖体保护蛋白"
+    },
+    {
+      "gene": "tet(O)",
+      "phenotype": "四环素类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "核糖体保护蛋白"
+    },
+    {
+      "gene": "tet(Q)",
+      "phenotype": "四环素类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "核糖体保护蛋白"
+    },
+    {
+      "gene": "tet(W)",
+      "phenotype": "四环素类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "核糖体保护蛋白"
+    },
+    {
+      "gene": "tet(X)",
+      "phenotype": "四环素类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "四环素氧化酶"
+    },
+    {
+      "gene": "tet(34)",
+      "phenotype": "四环素类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "四环素外排泵"
+    },
+    {
+      "gene": "tet(35)",
+      "phenotype": "四环素类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "四环素外排泵"
+    },
+    {
+      "gene": "tet(36)",
+      "phenotype": "四环素类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "四环素外排泵"
+    },
+    {
+      "gene": "tet(39)",
+      "phenotype": "四环素类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "四环素外排泵"
+    },
+    {
+      "gene": "otr(A)",
+      "phenotype": "四环素类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "核糖体保护蛋白(链霉菌源)"
+    },
+    {
+      "gene": "otr(B)",
+      "phenotype": "四环素类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "四环素外排泵(链霉菌源)"
+    },
+    {
+      "gene": "sul1",
+      "phenotype": "磺胺类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "二氢叶酸合成酶"
+    },
+    {
+      "gene": "sul2",
+      "phenotype": "磺胺类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "二氢叶酸合成酶"
+    },
+    {
+      "gene": "sul3",
+      "phenotype": "磺胺类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "二氢叶酸合成酶"
+    },
+    {
+      "gene": "dfrA1",
+      "phenotype": "甲氧苄啶耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "二氢叶酸还原酶"
+    },
+    {
+      "gene": "dfrA5",
+      "phenotype": "甲氧苄啶耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "二氢叶酸还原酶"
+    },
+    {
+      "gene": "dfrA7",
+      "phenotype": "甲氧苄啶耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "二氢叶酸还原酶"
+    },
+    {
+      "gene": "dfrA12",
+      "phenotype": "甲氧苄啶耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "二氢叶酸还原酶"
+    },
+    {
+      "gene": "dfrA14",
+      "phenotype": "甲氧苄啶耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "二氢叶酸还原酶"
+    },
+    {
+      "gene": "floR",
+      "phenotype": "氟苯尼考/氯霉素耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "氯霉素-氟苯尼考外排泵(水产重点)"
+    },
+    {
+      "gene": "cmlA1",
+      "phenotype": "氯霉素耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "氯霉素外排泵"
+    },
+    {
+      "gene": "catA1",
+      "phenotype": "氯霉素耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "氯霉素乙酰转移酶"
+    },
+    {
+      "gene": "fexA",
+      "phenotype": "氟苯尼考耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "氟苯尼考外排泵"
+    },
+    {
+      "gene": "fexB",
+      "phenotype": "氟苯尼考耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "氟苯尼考外排泵"
+    },
+    {
+      "gene": "erm(B)",
+      "phenotype": "大环内酯类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "23S rRNA甲基化酶"
+    },
+    {
+      "gene": "erm(C)",
+      "phenotype": "大环内酯类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "23S rRNA甲基化酶"
+    },
+    {
+      "gene": "erm(A)",
+      "phenotype": "大环内酯类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "23S rRNA甲基化酶"
+    },
+    {
+      "gene": "erm(D)",
+      "phenotype": "大环内酯类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "23S rRNA甲基化酶"
+    },
+    {
+      "gene": "mef(A)",
+      "phenotype": "大环内酯类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "大环内酯外排泵"
+    },
+    {
+      "gene": "mef(C)",
+      "phenotype": "大环内酯类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "大环内酯外排泵"
+    },
+    {
+      "gene": "msr(A)",
+      "phenotype": "大环内酯类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "大环内酯外排泵"
+    },
+    {
+      "gene": "mph(A)",
+      "phenotype": "大环内酯类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "大环内酯磷酸转移酶"
+    },
+    {
+      "gene": "mph(B)",
+      "phenotype": "大环内酯类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "大环内酯磷酸转移酶"
+    },
+    {
+      "gene": "mph(E)",
+      "phenotype": "大环内酯类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "大环内酯磷酸转移酶"
+    },
+    {
+      "gene": "lnu(A)",
+      "phenotype": "大环内酯类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "核苷转移酶"
+    },
+    {
+      "gene": "vga(A)",
+      "phenotype": "大环内酯类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "ABC外排泵"
+    },
+    {
+      "gene": "qnrC",
+      "phenotype": "喹诺酮类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "质粒介导喹诺酮耐药(PMQR)"
+    },
+    {
+      "gene": "qnrD",
+      "phenotype": "喹诺酮类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "质粒介导喹诺酮耐药(PMQR)"
+    },
+    {
+      "gene": "oqxB",
+      "phenotype": "喹诺酮类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "喹诺酮外排泵"
+    },
+    {
+      "gene": "rmtA",
+      "phenotype": "氨基糖苷类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "16S rRNA甲基化酶"
+    },
+    {
+      "gene": "rmtC",
+      "phenotype": "氨基糖苷类耐药",
+      "level": "中",
+      "color": "yellow",
+      "note": "16S rRNA甲基化酶"
+    }
+  ]
+}

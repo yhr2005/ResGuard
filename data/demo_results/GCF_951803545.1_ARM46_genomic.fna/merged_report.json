@@ -1,0 +1,210 @@
+{
+  "sample_id": "GCF_951803545.1_ARM46_genomic",
+  "analysis_date": "2026-06-04 20:00",
+  "tools": {
+    "amrfinderplus": "4.2.7",
+    "mob_suite": "3.1.9"
+  },
+  "genes": [
+    {
+      "gene_name": "blaCTX-M-15",
+      "contig": "NZ_OX637964.1",
+      "drug_class": "BETA-LACTAM",
+      "plasmid_info": {
+        "rep_type": "unknown",
+        "mobility": "unknown",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "blaCTX-M-15 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "暂未获得质粒信息",
+          "confidence": "Low"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "未知",
+          "confidence": "Low"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：BETA-LACTAM耐药，传播风险较低或未知",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "gene_name": "dfrA17",
+      "contig": "NZ_OX637965.1",
+      "drug_class": "TRIMETHOPRIM",
+      "plasmid_info": {
+        "rep_type": "unknown",
+        "mobility": "unknown",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "dfrA17 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "暂未获得质粒信息",
+          "confidence": "Low"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "未知",
+          "confidence": "Low"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：TRIMETHOPRIM耐药，传播风险较低或未知",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "gene_name": "aadA5",
+      "contig": "NZ_OX637965.1",
+      "drug_class": "AMINOGLYCOSIDE",
+      "plasmid_info": {
+        "rep_type": "unknown",
+        "mobility": "unknown",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "aadA5 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "暂未获得质粒信息",
+          "confidence": "Low"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "未知",
+          "confidence": "Low"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：AMINOGLYCOSIDE耐药，传播风险较低或未知",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "gene_name": "qacEdelta1",
+      "contig": "NZ_OX637965.1",
+      "drug_class": "QUATERNARY AMMONIUM",
+      "plasmid_info": {
+        "rep_type": "class 1 integron",
+        "mobility": "mobilizable",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "qacEdelta1 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "位于 class 1 integron 型质粒 (contig NZ_OX637965.1)",
+          "confidence": "Medium"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "mobilizable",
+          "confidence": "Medium"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：QUATERNARY AMMONIUM耐药，质粒可被辅助转移，中等传播风险",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "gene_name": "sul1",
+      "contig": "NZ_OX637965.1",
+      "drug_class": "SULFONAMIDE",
+      "plasmid_info": {
+        "rep_type": "class 1 integron",
+        "mobility": "mobilizable",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "sul1 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "位于 class 1 integron 型质粒 (contig NZ_OX637965.1)",
+          "confidence": "Medium"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "mobilizable",
+          "confidence": "Medium"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：SULFONAMIDE耐药，质粒可被辅助转移，中等传播风险",
+          "confidence": "High"
+        }
+      ]
+    }
+  ]
+}

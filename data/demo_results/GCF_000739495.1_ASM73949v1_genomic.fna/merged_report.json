@@ -1,0 +1,1130 @@
+{
+  "sample_id": "GCF_000739495.1_ASM73949v1_genomic",
+  "analysis_date": "2026-06-04 20:04",
+  "tools": {
+    "amrfinderplus": "4.2.7",
+    "mob_suite": "3.1.9"
+  },
+  "genes": [
+    {
+      "gene_name": "blaSHV-11",
+      "contig": "NZ_CP009114.1",
+      "drug_class": "BETA-LACTAM",
+      "plasmid_info": {
+        "rep_type": "IncFIB(K)",
+        "mobility": "mobilizable",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "blaSHV-11 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "位于 IncFIB(K) 型质粒 (contig NZ_CP009114.1)",
+          "confidence": "Medium"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "mobilizable",
+          "confidence": "Medium"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：BETA-LACTAM耐药，质粒可被辅助转移，中等传播风险",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "gene_name": "oqxA",
+      "contig": "NZ_CP009114.1",
+      "drug_class": "NITROFURAN/PHENICOL/QUINOLONE/TETRACYCLINE",
+      "plasmid_info": {
+        "rep_type": "unknown",
+        "mobility": "unknown",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "oqxA (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "暂未获得质粒信息",
+          "confidence": "Low"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "未知",
+          "confidence": "Low"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：NITROFURAN/PHENICOL/QUINOLONE/TETRACYCLINE耐药，传播风险较低或未知",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "gene_name": "oqxB",
+      "contig": "NZ_CP009114.1",
+      "drug_class": "NITROFURAN/PHENICOL/QUINOLONE/TETRACYCLINE",
+      "plasmid_info": {
+        "rep_type": "unknown",
+        "mobility": "unknown",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "oqxB (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "暂未获得质粒信息",
+          "confidence": "Low"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "未知",
+          "confidence": "Low"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：NITROFURAN/PHENICOL/QUINOLONE/TETRACYCLINE耐药，传播风险较低或未知",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "gene_name": "fosA",
+      "contig": "NZ_CP009114.1",
+      "drug_class": "FOSFOMYCIN",
+      "plasmid_info": {
+        "rep_type": "IncFII(K)",
+        "mobility": "conjugative",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "fosA (一致性 99.28%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "位于 IncFII(K) 型质粒 (contig NZ_CP009114.1)",
+          "confidence": "Medium"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "conjugative",
+          "confidence": "Medium"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：FOSFOMYCIN耐药，质粒可接合转移，传播风险极高",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "gene_name": "blaTEM-1",
+      "contig": "NZ_CP009115.1",
+      "drug_class": "BETA-LACTAM",
+      "plasmid_info": {
+        "rep_type": "IncF/IncI1",
+        "mobility": "mobilizable",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "blaTEM-1 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "位于 IncF/IncI1 型质粒 (contig NZ_CP009115.1)",
+          "confidence": "Medium"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "mobilizable",
+          "confidence": "Medium"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：BETA-LACTAM耐药，质粒可被辅助转移，中等传播风险",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "gene_name": "blaOXA-9",
+      "contig": "NZ_CP009115.1",
+      "drug_class": "BETA-LACTAM",
+      "plasmid_info": {
+        "rep_type": "unknown",
+        "mobility": "unknown",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "blaOXA-9 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "暂未获得质粒信息",
+          "confidence": "Low"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "未知",
+          "confidence": "Low"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：BETA-LACTAM耐药，传播风险较低或未知",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "gene_name": "aadA1",
+      "contig": "NZ_CP009115.1",
+      "drug_class": "AMINOGLYCOSIDE",
+      "plasmid_info": {
+        "rep_type": "unknown",
+        "mobility": "unknown",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "aadA1 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "暂未获得质粒信息",
+          "confidence": "Low"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "未知",
+          "confidence": "Low"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：AMINOGLYCOSIDE耐药，传播风险较低或未知",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "gene_name": "aac(6')-Ib",
+      "contig": "NZ_CP009115.1",
+      "drug_class": "AMINOGLYCOSIDE",
+      "plasmid_info": {
+        "rep_type": "unknown",
+        "mobility": "unknown",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "aac(6')-Ib (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "暂未获得质粒信息",
+          "confidence": "Low"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "未知",
+          "confidence": "Low"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：AMINOGLYCOSIDE耐药，传播风险较低或未知",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "gene_name": "blaCTX-M-15",
+      "contig": "NZ_CP009115.1",
+      "drug_class": "BETA-LACTAM",
+      "plasmid_info": {
+        "rep_type": "unknown",
+        "mobility": "unknown",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "blaCTX-M-15 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "暂未获得质粒信息",
+          "confidence": "Low"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "未知",
+          "confidence": "Low"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：BETA-LACTAM耐药，传播风险较低或未知",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "gene_name": "qnrS1",
+      "contig": "NZ_CP009115.1",
+      "drug_class": "QUINOLONE",
+      "plasmid_info": {
+        "rep_type": "unknown",
+        "mobility": "unknown",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "qnrS1 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "暂未获得质粒信息",
+          "confidence": "Low"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "未知",
+          "confidence": "Low"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：QUINOLONE耐药，传播风险较低或未知",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "gene_name": "aph(3')-VI",
+      "contig": "NZ_CP009115.1",
+      "drug_class": "AMINOGLYCOSIDE",
+      "plasmid_info": {
+        "rep_type": "unknown",
+        "mobility": "unknown",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "aph(3')-VI (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "暂未获得质粒信息",
+          "confidence": "Low"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "未知",
+          "confidence": "Low"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：AMINOGLYCOSIDE耐药，传播风险较低或未知",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "gene_name": "blaNDM-1",
+      "contig": "NZ_CP009115.1",
+      "drug_class": "BETA-LACTAM",
+      "plasmid_info": {
+        "rep_type": "unknown",
+        "mobility": "unknown",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "blaNDM-1 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "暂未获得质粒信息",
+          "confidence": "Low"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "未知",
+          "confidence": "Low"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：BETA-LACTAM耐药，传播风险较低或未知",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "gene_name": "ble",
+      "contig": "NZ_CP009115.1",
+      "drug_class": "BLEOMYCIN",
+      "plasmid_info": {
+        "rep_type": "unknown",
+        "mobility": "unknown",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "ble (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "暂未获得质粒信息",
+          "confidence": "Low"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "未知",
+          "confidence": "Low"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：BLEOMYCIN耐药，传播风险较低或未知",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "gene_name": "tet(D)",
+      "contig": "NZ_CP009116.1",
+      "drug_class": "TETRACYCLINE",
+      "plasmid_info": {
+        "rep_type": "unknown",
+        "mobility": "unknown",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "tet(D) (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "暂未获得质粒信息",
+          "confidence": "Low"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "未知",
+          "confidence": "Low"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：TETRACYCLINE耐药，传播风险较低或未知",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "gene_name": "catA2",
+      "contig": "NZ_CP009116.1",
+      "drug_class": "PHENICOL",
+      "plasmid_info": {
+        "rep_type": "unknown",
+        "mobility": "unknown",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "catA2 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "暂未获得质粒信息",
+          "confidence": "Low"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "未知",
+          "confidence": "Low"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：PHENICOL耐药，传播风险较低或未知",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "gene_name": "blaTEM-1",
+      "contig": "NZ_CP009116.1",
+      "drug_class": "BETA-LACTAM",
+      "plasmid_info": {
+        "rep_type": "IncF/IncI1",
+        "mobility": "mobilizable",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "blaTEM-1 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "位于 IncF/IncI1 型质粒 (contig NZ_CP009116.1)",
+          "confidence": "Medium"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "mobilizable",
+          "confidence": "Medium"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：BETA-LACTAM耐药，质粒可被辅助转移，中等传播风险",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "gene_name": "aph(6)-Id",
+      "contig": "NZ_CP009116.1",
+      "drug_class": "AMINOGLYCOSIDE",
+      "plasmid_info": {
+        "rep_type": "unknown",
+        "mobility": "unknown",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "aph(6)-Id (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "暂未获得质粒信息",
+          "confidence": "Low"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "未知",
+          "confidence": "Low"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：AMINOGLYCOSIDE耐药，传播风险较低或未知",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "gene_name": "aph(3'')-Ib",
+      "contig": "NZ_CP009116.1",
+      "drug_class": "AMINOGLYCOSIDE",
+      "plasmid_info": {
+        "rep_type": "unknown",
+        "mobility": "unknown",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "aph(3'')-Ib (一致性 99.63%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "暂未获得质粒信息",
+          "confidence": "Low"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "未知",
+          "confidence": "Low"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：AMINOGLYCOSIDE耐药，传播风险较低或未知",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "gene_name": "sul2",
+      "contig": "NZ_CP009116.1",
+      "drug_class": "SULFONAMIDE",
+      "plasmid_info": {
+        "rep_type": "IncF/IncI1",
+        "mobility": "mobilizable",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "sul2 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "位于 IncF/IncI1 型质粒 (contig NZ_CP009116.1)",
+          "confidence": "Medium"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "mobilizable",
+          "confidence": "Medium"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：SULFONAMIDE耐药，质粒可被辅助转移，中等传播风险",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "gene_name": "sul1",
+      "contig": "NZ_CP009116.1",
+      "drug_class": "SULFONAMIDE",
+      "plasmid_info": {
+        "rep_type": "class 1 integron",
+        "mobility": "mobilizable",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "sul1 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "位于 class 1 integron 型质粒 (contig NZ_CP009116.1)",
+          "confidence": "Medium"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "mobilizable",
+          "confidence": "Medium"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：SULFONAMIDE耐药，质粒可被辅助转移，中等传播风险",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "gene_name": "qacEdelta1",
+      "contig": "NZ_CP009116.1",
+      "drug_class": "QUATERNARY AMMONIUM",
+      "plasmid_info": {
+        "rep_type": "class 1 integron",
+        "mobility": "mobilizable",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "qacEdelta1 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "位于 class 1 integron 型质粒 (contig NZ_CP009116.1)",
+          "confidence": "Medium"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "mobilizable",
+          "confidence": "Medium"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：QUATERNARY AMMONIUM耐药，质粒可被辅助转移，中等传播风险",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "gene_name": "qnrB6",
+      "contig": "NZ_CP009116.1",
+      "drug_class": "QUINOLONE",
+      "plasmid_info": {
+        "rep_type": "unknown",
+        "mobility": "unknown",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "qnrB6 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "暂未获得质粒信息",
+          "confidence": "Low"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "未知",
+          "confidence": "Low"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：QUINOLONE耐药，传播风险较低或未知",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "gene_name": "sul1",
+      "contig": "NZ_CP009116.1",
+      "drug_class": "SULFONAMIDE",
+      "plasmid_info": {
+        "rep_type": "class 1 integron",
+        "mobility": "mobilizable",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "sul1 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "位于 class 1 integron 型质粒 (contig NZ_CP009116.1)",
+          "confidence": "Medium"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "mobilizable",
+          "confidence": "Medium"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：SULFONAMIDE耐药，质粒可被辅助转移，中等传播风险",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "gene_name": "qacEdelta1",
+      "contig": "NZ_CP009116.1",
+      "drug_class": "QUATERNARY AMMONIUM",
+      "plasmid_info": {
+        "rep_type": "class 1 integron",
+        "mobility": "mobilizable",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "qacEdelta1 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "位于 class 1 integron 型质粒 (contig NZ_CP009116.1)",
+          "confidence": "Medium"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "mobilizable",
+          "confidence": "Medium"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：QUATERNARY AMMONIUM耐药，质粒可被辅助转移，中等传播风险",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "gene_name": "aadA16",
+      "contig": "NZ_CP009116.1",
+      "drug_class": "AMINOGLYCOSIDE",
+      "plasmid_info": {
+        "rep_type": "unknown",
+        "mobility": "unknown",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "aadA16 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "暂未获得质粒信息",
+          "confidence": "Low"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "未知",
+          "confidence": "Low"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：AMINOGLYCOSIDE耐药，传播风险较低或未知",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "gene_name": "dfrA27",
+      "contig": "NZ_CP009116.1",
+      "drug_class": "TRIMETHOPRIM",
+      "plasmid_info": {
+        "rep_type": "unknown",
+        "mobility": "unknown",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "dfrA27 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "暂未获得质粒信息",
+          "confidence": "Low"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "未知",
+          "confidence": "Low"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：TRIMETHOPRIM耐药，传播风险较低或未知",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "gene_name": "arr-3",
+      "contig": "NZ_CP009116.1",
+      "drug_class": "RIFAMYCIN",
+      "plasmid_info": {
+        "rep_type": "unknown",
+        "mobility": "unknown",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "arr-3 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "暂未获得质粒信息",
+          "confidence": "Low"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "未知",
+          "confidence": "Low"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：RIFAMYCIN耐药，传播风险较低或未知",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "gene_name": "aac(6')-Ib-cr5",
+      "contig": "NZ_CP009116.1",
+      "drug_class": "AMINOGLYCOSIDE/QUINOLONE",
+      "plasmid_info": {
+        "rep_type": "unknown",
+        "mobility": "unknown",
+        "relaxase": "unknown"
+      },
+      "evidence_chain": [
+        {
+          "step": 1,
+          "title": "基因检出",
+          "tool": "AMRFinderPlus",
+          "result": "aac(6')-Ib-cr5 (一致性 100.00%)",
+          "confidence": "High"
+        },
+        {
+          "step": 2,
+          "title": "质粒定位",
+          "tool": "知识库",
+          "result": "暂未获得质粒信息",
+          "confidence": "Low"
+        },
+        {
+          "step": 3,
+          "title": "移动性判定",
+          "tool": "知识库",
+          "result": "未知",
+          "confidence": "Low"
+        },
+        {
+          "step": 4,
+          "title": "综合结论",
+          "tool": "规则引擎",
+          "result": "风险：AMINOGLYCOSIDE/QUINOLONE耐药，传播风险较低或未知",
+          "confidence": "Medium"
+        }
+      ]
+    }
+  ]
+}

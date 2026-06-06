@@ -1,0 +1,26 @@
+FROM ncbi/amr:latest
+
+# 安装 Miniconda 所需的基础工具
+RUN apt-get update && apt-get install -y wget bzip2 && \
+    rm -rf /var/lib/apt/lists/*
+
+# 下载并安装 Miniconda
+RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh \
+      -O /tmp/miniconda.sh && \
+    bash /tmp/miniconda.sh -b -p /opt/conda && \
+    rm /tmp/miniconda.sh
+
+# 接受 conda 默认频道条款
+RUN /opt/conda/bin/conda tos accept --override-channels \
+      --channel https://repo.anaconda.com/pkgs/main && \
+    /opt/conda/bin/conda tos accept --override-channels \
+      --channel https://repo.anaconda.com/pkgs/r
+
+# 创建 Python 3.8 环境并安装 MOB‑suite（添加 conda-forge 解决 ete3 依赖）
+RUN /opt/conda/bin/conda create -n mobsuite python=3.8 -y && \
+    /opt/conda/bin/conda install -n mobsuite \
+      -c bioconda -c conda-forge mob_suite=3.1.9 -y && \
+    /opt/conda/bin/conda clean -a -y
+
+# 将 mobsuite 环境加入 PATH
+ENV PATH="/opt/conda/envs/mobsuite/bin:$PATH"

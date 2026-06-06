@@ -1,0 +1,14 @@
+{
+  "blaCTX-M-14": {"plasmid": "IncFIB(K)/IncFII(K)", "mobility": "mobilizable"},
+  "blaSHV-11": {"plasmid": "IncFIB(K)", "mobility": "mobilizable"},
+  "blaTEM-1": {"plasmid": "IncF/IncI1", "mobility": "mobilizable"},
+  "rmtB1": {"plasmid": "IncFII(K)", "mobility": "conjugative"},
+  "fosA": {"plasmid": "IncFII(K)", "mobility": "conjugative"},
+  "qacEdelta1": {"plasmid": "class 1 integron", "mobility": "mobilizable"},
+  "sul1": {"plasmid": "class 1 integron", "mobility": "mobilizable"},
+  "sul2": {"plasmid": "IncF/IncI1", "mobility": "mobilizable"},
+  "dfrA12": {"plasmid": "class 1 integron", "mobility": "mobilizable"},
+  "aadA2": {"plasmid": "class 1 integron", "mobility": "mobilizable"},
+  "floR2": {"plasmid": "IncF/IncA/C", "mobility": "mobilizable"},
+  "tet(G)": {"plasmid": "IncF/IncI1", "mobility": "mobilizable"}
+}

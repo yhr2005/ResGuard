@@ -1,0 +1,167 @@
+{
+  "risk_level": "极高",
+  "score": 28,
+  "details": [
+    {
+      "gene": "blaCTX-M-14",
+      "phenotype": "第三代头孢耐药",
+      "level": "高",
+      "note": "超广谱β-内酰胺酶(ESBL)",
+      "color": "orange",
+      "scope": "core"
+    },
+    {
+      "gene": "dfrA50",
+      "phenotype": "待评估",
+      "level": "未知",
+      "note": "该基因未收录在规则库中",
+      "color": "grey",
+      "scope": "core"
+    },
+    {
+      "gene": "blaTEM-1",
+      "phenotype": "待评估",
+      "level": "未知",
+      "note": "该基因未收录在规则库中",
+      "color": "grey",
+      "scope": "core"
+    },
+    {
+      "gene": "rmtB1",
+      "phenotype": "待评估",
+      "level": "未知",
+      "note": "该基因未收录在规则库中",
+      "color": "grey",
+      "scope": "core"
+    },
+    {
+      "gene": "tet(G)",
+      "phenotype": "四环素类耐药",
+      "level": "中",
+      "note": "四环素外排泵",
+      "color": "yellow",
+      "scope": "core"
+    },
+    {
+      "gene": "floR2",
+      "phenotype": "待评估",
+      "level": "未知",
+      "note": "该基因未收录在规则库中",
+      "color": "grey",
+      "scope": "core"
+    },
+    {
+      "gene": "sul1",
+      "phenotype": "磺胺类耐药",
+      "level": "中",
+      "note": "二氢叶酸合成酶",
+      "color": "yellow",
+      "scope": "core"
+    },
+    {
+      "gene": "qacEdelta1",
+      "phenotype": "待评估",
+      "level": "未知",
+      "note": "该基因未收录在规则库中",
+      "color": "grey",
+      "scope": "core"
+    },
+    {
+      "gene": "aadA2",
+      "phenotype": "待评估",
+      "level": "未知",
+      "note": "该基因未收录在规则库中",
+      "color": "grey",
+      "scope": "core"
+    },
+    {
+      "gene": "dfrA12",
+      "phenotype": "甲氧苄啶耐药",
+      "level": "中",
+      "note": "二氢叶酸还原酶",
+      "color": "yellow",
+      "scope": "core"
+    },
+    {
+      "gene": "aac(3)-IId",
+      "phenotype": "待评估",
+      "level": "未知",
+      "note": "该基因未收录在规则库中",
+      "color": "grey",
+      "scope": "core"
+    },
+    {
+      "gene": "blaTEM-1",
+      "phenotype": "待评估",
+      "level": "未知",
+      "note": "该基因未收录在规则库中",
+      "color": "grey",
+      "scope": "core"
+    },
+    {
+      "gene": "aph(6)-Id",
+      "phenotype": "待评估",
+      "level": "未知",
+      "note": "该基因未收录在规则库中",
+      "color": "grey",
+      "scope": "core"
+    },
+    {
+      "gene": "aph(3'')-Ib",
+      "phenotype": "待评估",
+      "level": "未知",
+      "note": "该基因未收录在规则库中",
+      "color": "grey",
+      "scope": "core"
+    },
+    {
+      "gene": "sul2",
+      "phenotype": "磺胺类耐药",
+      "level": "中",
+      "note": "二氢叶酸合成酶",
+      "color": "yellow",
+      "scope": "core"
+    },
+    {
+      "gene": "blaCTX-M-14",
+      "phenotype": "第三代头孢耐药",
+      "level": "高",
+      "note": "超广谱β-内酰胺酶(ESBL)",
+      "color": "orange",
+      "scope": "core"
+    },
+    {
+      "gene": "fosA",
+      "phenotype": "待评估",
+      "level": "未知",
+      "note": "该基因未收录在规则库中",
+      "color": "grey",
+      "scope": "core"
+    },
+    {
+      "gene": "blaSHV-11",
+      "phenotype": "待评估",
+      "level": "未知",
+      "note": "该基因未收录在规则库中",
+      "color": "grey",
+      "scope": "core"
+    },
+    {
+      "gene": "blaKPC-2",
+      "phenotype": "碳青霉烯类耐药",
+      "level": "极高",
+      "note": "丝氨酸碳青霉烯酶",
+      "color": "red",
+      "scope": "core"
+    },
+    {
+      "gene": "blaTEM-1",
+      "phenotype": "待评估",
+      "level": "未知",
+      "note": "该基因未收录在规则库中",
+      "color": "grey",
+      "scope": "core"
+    }
+  ],
+  "summary": "共检测到 20 个耐药基因，综合风险等级：极高"
+}

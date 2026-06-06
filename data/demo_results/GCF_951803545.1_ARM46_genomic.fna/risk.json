@@ -1,0 +1,47 @@
+{
+  "risk_level": "中",
+  "score": 7,
+  "details": [
+    {
+      "gene": "blaCTX-M-15",
+      "phenotype": "第三代头孢耐药",
+      "level": "高",
+      "note": "超广谱β-内酰胺酶(ESBL)",
+      "color": "orange",
+      "scope": "core"
+    },
+    {
+      "gene": "dfrA17",
+      "phenotype": "待评估",
+      "level": "未知",
+      "note": "该基因未收录在规则库中",
+      "color": "grey",
+      "scope": "core"
+    },
+    {
+      "gene": "aadA5",
+      "phenotype": "待评估",
+      "level": "未知",
+      "note": "该基因未收录在规则库中",
+      "color": "grey",
+      "scope": "core"
+    },
+    {
+      "gene": "qacEdelta1",
+      "phenotype": "待评估",
+      "level": "未知",
+      "note": "该基因未收录在规则库中",
+      "color": "grey",
+      "scope": "core"
+    },
+    {
+      "gene": "sul1",
+      "phenotype": "磺胺类耐药",
+      "level": "中",
+      "note": "二氢叶酸合成酶",
+      "color": "yellow",
+      "scope": "core"
+    }
+  ],
+  "summary": "共检测到 5 个耐药基因，综合风险等级：中"
+}
